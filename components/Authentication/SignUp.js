@@ -1,20 +1,13 @@
 import React from "react";
 import {
   View,
-  Text,
-  TextInput,
   StyleSheet,
-  ImageBackground,
-  TouchableOpacity,
-  PlatformOSType,
   TouchableWithoutFeedback,
   Keyboard
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import Icon from "react-native-vector-icons/FontAwesome5";
 import History from "../../modules/History";
 import { auth, db } from "../../firebase/firebase";
-import { googleSignIn } from "../../modules/oAuth/oAuthProviders";
 import baseStyles from "../../modules/Styles";
 import { FullScreenWidth, FullScreenHeight } from "../../modules/FullScreen";
 import FontText from "../FontText/FontText";

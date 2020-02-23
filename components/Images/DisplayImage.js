@@ -1,6 +1,5 @@
 import React from "react";
 import { Image } from "react-native";
-import Constants from "expo-constants";
 import { FullScreenWidth, FullScreenHeight } from "../../modules/FullScreen";
 
 function DisplayImage({ selectedImgUri, selectedImgOrientation }) {
